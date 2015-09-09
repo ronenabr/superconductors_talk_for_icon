@@ -1,0 +1,1048 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+%%\usepackage{culmus}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+על מוליכות וחיות אחרות
+\end_layout
+
+\begin_layout Author
+רונן
+\end_layout
+
+\begin_layout Section
+רקע
+\end_layout
+
+\begin_layout Standard
+היום אני הולך לדבר על פיזיקה.
+ אני הולך לדבר על אחת מהתופעות הפיזיקליות המגניבות ביותר שנחקרו במהלך המאה
+ העשרים )ועדיין נחקרות במרץ(.
+ אני הולך לדבר אתכם על תופעה פיזיקאלית שלפעמים נראית כמו קסם, אבל היישום
+ שלה הוא מאוד מסובך.
+ אני הולך לדבר אתכם על תופעה פיזיקאלית שמוזכרת, ישירות מעט מאוד ביצירות
+ מדע בדיוני במישרין, אבל לפעמים היא יכולה להיות הטכנובבל שמאחורי הקלעים.
+\end_layout
+
+\begin_layout Standard
+השנה היא
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2015
+\numeric off
+.
+ מרטי מקפליי בדיוק צץ עם הדלוריאן שלו בהיל ואלי, קליפורניה וצריך לברוח מגריף:
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+https://www.youtube.com/watch?v=z1ZdMOMUgXE
+\lang hebrew
+ 
+\end_layout
+
+\begin_layout Standard
+כשכתבתי את הגרסה הראשונה של ראשי הפרקים של ההרצאה, לפני בערך חודשיים, הסצנה
+ הזו הייתה לחלוטין מדע-בדיוני.
+ הסרטון הבא שהתכוונתי להראות לכם כלל דיסקית קטנה מרחפת מעל מגנט.
+ שזה מגניב, אבל הוברבורד, זה לא.
+ 
+\end_layout
+
+\begin_layout Standard
+ואז לקסוס שחררו את זה: )אוגוסט
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2015
+\numeric off
+, ברצלונה(
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+https://www.youtube.com/watch?v=ZwSwZ2Y0Ops
+\end_layout
+
+\begin_layout Standard
+כן.
+ זה הוברבורד.
+ כן.
+ הוא עובד.
+ כן, הוא קצת פחות מרשים מזה של מרטי ו)אל תספרו לאף אחד( הוא עובד רק מעל
+ מגנטים, אז שימושי מדי הוא לא.
+ 
+\end_layout
+
+\begin_layout Standard
+בהרצאה היום אני אדבר על על-מוליכות )או מוליכות על(, התופעה הפיזיקאלית שבליבו
+ של ההוברבורד של לקסוס, כמו גם בליבם של מכשירים כמו
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+MRI
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ ומאיצי חלקיקים.
+ אני אספר לכם איך זה עובד, ולמה.
+ אני אספר לכם למה משתמשים בזה כל כך מעט ואנסה לחשוב אתכם מה היה אפשר לעשות
+ עם מוליכי על, אם כל העסק היה קצת יותר פשוט לשימוש.
+ 
+\end_layout
+
+\begin_layout Section
+מוליכות רגילה
+\end_layout
+
+\begin_layout Subsection
+מודל האטום
+\end_layout
+
+\begin_layout Standard
+תמונה
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+https://commons.wikimedia.org/wiki/File:Eisenatom.svg
+\end_layout
+
+\begin_layout Standard
+יש לנו אטום עם אלקטרונים.
+ האלקטרון מוסר את האלקטרונים הרחוקים יותר ל"מתכת".
+ כתוצאה מכך, נשאר לנו יון חיובי כבד ואלקטרונים חופשיים.
+ היונים נמשכים אחד אל השני ויצרים גביש.
+\end_layout
+
+\begin_layout Subsection
+מודל דרודה
+\end_layout
+
+\begin_layout Standard
+האלקטורנים חופשיים לנוע.
+ כאשר מפעילים שדה חשמלי, הם מאיצים.
+ התנועה הזו של אלקטרונים ממקום למקום - היא זרם חשמלי.
+ עכשיו, אחרי שלאלקטורנים יש כבר מהירות, אנחנו יכולים לכבות את השדה החשמלי
+ - לנתק את הסוללה, והזרם ימשיך לזרום לנצח? לא ממש.
+ 
+\end_layout
+
+\begin_layout Subsection
+התנגדות חשמלית
+\end_layout
+
+\begin_layout Standard
+כאשר האלקטרונים נעים, הם עלולים להיתקל בהפרעות: להתנגש אחד בשני, ביונים,
+ ובהפרעות נוספות שיש בתוך החומר.
+ בהתנגשות כזו, הם מוסרים חלק מהאנרגיה שלהם לגביש ומאטים.
+ האלקטרונים מאבדים מהירות ונדרש שדה חשמלי קבוע - חיבור מתמיד לסוללה, כדי
+ לשמור אותם במהירות קבועה.
+ 
+\end_layout
+
+\begin_layout Standard
+לאן האנרגיה הלכה? כדי "לנער" את היונים, לגרום לתנודות שלהם סביב מיקומם המקורי.
+ תנודות כאלו של יונים הם בעצם "חום", או אנרגיה שהולכת לאיבוד.
+\end_layout
+
+\begin_layout Standard
+אנחנו משקיעים.
+ מטפחים את האלקטרונים שלנו.
+ מלמדים אותם לזוז, והם מבזבזים את כל האנרגיה שלהם על התרועאות עם יונים.
+ ובסוף גם עושים לנו כוויות.
+ 
+\end_layout
+
+\begin_layout Section
+מוליכות על
+\end_layout
+
+\begin_layout Subsection
+הגדרה
+\end_layout
+
+\begin_layout Standard
+זה היה מממש נחמד לו היינו יכולים להזיז אלקטרונים ממקום למקום בלי לאבד אנרגיה:
+ אלקטרונים זזים זה ממש כיף.
+ קודם כל, אנחנו אוהבים להזיז אלקטרונים ממקום למקום, סתם ככה )למשל, מתחנת
+ הכוח בחדרה לבית שלכם, או מחלק אחד של המחשב לחלק אחר(.
+ חוץ מזה, אלקטורנים זזים יוצרים שדות מגנטיים, שגם הם שימושיים לפעמים )נראה
+ בהמשך(.
+ 
+\end_layout
+
+\begin_layout Standard
+לצערנו, אי אפשר לעשות את זה.
+ או שכן?
+\end_layout
+
+\begin_layout Standard
+הייקה קמלינג אונס היה פיזיקאי הולדני, פרופסור באוניברסיטת ליידן.
+ אונס תמחה במקררים.
+ מה כל כך מעניין במקררים? המקררים שאונס בנה היו חזקים למדי.
+ פורצי דרך.
+ אונס היה הראשון שהצליח לייצר הליום נוזלי - בטמפרטורה של 
+\begin_inset Formula $-269^{\circ}C$
+\end_inset
+
+ )או, 
+\begin_inset Formula $4.2K$
+\end_inset
+
+( ועשה כל מני ניסויים על השפעה של תמפרטורות נמוכות על חומרים.
+ 
+\end_layout
+
+\begin_layout Standard
+אם נחזור לסיפור הקודם -- על הולכה והתנגדות, נשים לב לתופעה מעניינת - בדרך
+ כלל, מתכות מוליכות טוב יותר ככל שמקררים אותם )או, פחות טוב ככל שמחממים
+ אותם(.
+ זה די ברור מהמודל: אם הגביש זז, הוא מפריע יותר לאלקטורנים הנעים.
+ אבל ב-
+\numeric on
+1911
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+אונס גילה משהו מפתיע: כשהוא קירר כספית לטמפרטורה של הליום נוזלי, ההתנגדות
+ שלה - בבת אחת - נעלמה לחלוטין.
+\end_layout
+
+\begin_layout Standard
+לא פחתה הדרגתית.
+ לא התנגדות חשמלית קטנה.
+ אפס מאופס.
+ מוחלט.
+ בלי התנגדות כלל.
+ הוא קרא למצב הזה, של הכספית, "מצב על מוליך".
+ על התגלית הזו הוא קיבל פרס נובל.
+ )מדליית נובל?(
+\end_layout
+
+\begin_layout Standard
+אז, איך אלקטרונים יכולים לנוע במתכת, קרה ככל שתהיה, בלי התנגדות בכלל? בשנים
+ הבאות צצו תאוריות רבות 
+\series bold
+מתארות
+\series default
+ את התופעה, ואף הסבירו כל מני תופעות מוזרות יותר של על מוליכות )בהמשך...( אבל
+ אף אחד לא הצליח להסביר.
+ עד שהגיע ברדין, קופר ושריפר.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status collapsed
+
+\begin_layout Subsection
+מבוא - בוזונים ופרמיונים
+\end_layout
+
+\begin_layout Plain Layout
+)הסבר טכני.
+ מסקנה בסוף(
+\end_layout
+
+\begin_layout Plain Layout
+לכל חלקיק בעולם יש תכונה שנקראת ספין.
+ ספין יכול להיות מספר שלום )
+\begin_inset Formula $0,1,2,3...$
+\end_inset
+
+( או חצי-שלם )
+\begin_inset Formula $\frac{1}{2},\frac{3}{2},\frac{5}{2}...$
+\end_inset
+
+(.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+זוהי תכונה מאוד מעניינת, עם המון השלכות, אבל אנחנו נתרכז רק בשניים מהם:
+ 
+\end_layout
+
+\begin_layout Itemize
+זה מאוד משנה אם הספין הוא שלם או חצי-שלם.
+ זה משפיע על כמה חלקיקים יכולים להיות באותו מצב.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+חלקיקים עם ספין שלם נקראים "בוזונים".
+ הם מאוד אוהבים אחד את השני.
+ הם ישמחו להיות כולם באותו "מצב".
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+למשל, לייזר - חלקיקי אור, פוטונים, הם בוזונים.
+ בלייזר, כל הפוטונים הם באותו "צבע".
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+חלקיקים עם ספין חצי שלם נקראים "בוזונים".
+ הם לא כל כך ידידותיים.
+ כל חלקיק נמצא במצב משלו.
+ אי אפשר לשים שני בוזונים באותו מצב.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+למשל, באטום - כל אלקטרון נמצא במצב משלו.
+ 
+\end_layout
+
+\begin_layout Itemize
+למשל, במוצק, לכל אלקטרון יש את ה"מהירות" שלו.
+ ויש בלאגן.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+אם מדביקים חלקיקים ביחד, הספין של החלקיק החדש הוא סכום של ספינים.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+למשל, לפרוטונים וניוטרונים יש ספין 
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+.
+ גרעין של הליום-
+\numeric on
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מורכב משני פרוטונים וניוטרון ולכן יש לו ספין 
+\begin_inset Formula $\frac{3}{2}$
+\end_inset
+
+.
+ גרעין של הליום-
+\numeric on
+4
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מורכב מ-
+\numeric on
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+פרוטונים ושני ניוטרונים ולכן יש לו ספין 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Plain Layout
+אם האלקטרונים היו פרמיונים, אז הכל היה פשוט - הם היו יכולים לנוע כולם ביחד,
+ במצב עם האנרגיה הנמוכה ביותר האפשרית.
+ הם לא היו יכולים להיות אנרגיה - כי האנרגיה שלהם היתה הנמוכה ביותר האפשרית.
+ רק חבל שהאלקטרונים דוחים אחד את השני.
+\end_layout
+
+\begin_layout Subsection
+זוגות קופר
+\end_layout
+
+\begin_layout Plain Layout
+האומנם?
+\end_layout
+
+\begin_layout Plain Layout
+הפריצה הגדולה הייתה כאשר קופר הציע מנגנון שבו זוגות אלקטרונים בתוך גביש
+ )=מתכת( נמשכים אחד אל השני.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+האלקטרונים המהירים נעים בתוך גביש של יונים איטיים.
+ כאשר אלקטרון עובר במקום מסויים, הוא מושך אליו את היונים.
+ הם מצטופפים מעט, אבל האלקטרון ממשיך הלאה.
+ לך? יופי.
+ הם יכולים לחזור למקום.
+ אבל לאט.
+\end_layout
+
+\begin_layout Plain Layout
+בנתיים, אלקטרון נוסף עובר בסביבה.
+ הוא מזהה נתיב שבו היונים צפופים מעט יותר.
+ הוא נמשך אליו.
+ קיבלנו אלקטרון שעוקב אחרי אלקטרון אחר.
+ וקיבלנו זוג אלקטרונים שנע ביחד - או - בוזון.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+עכשיו, כשזוגות האלקטרונים שלנו הם בוזונים, הם כולם יכולים להיות ב
+\series bold
+מצב היסוד
+\series default
+, מצב של אנרגיה מינימלית שבה כולם נעים בזה אחר זה, בלי לאבד אנרגיה.
+ דוחפים אלקטרונים - והם ממשיכים לזוז.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+אפקט מייזנר וריחוף
+\end_layout
+
+\begin_layout Standard
+אז יש לנו זרם חשמלי ללא התנגדות, אבל איך כל זה עוזר לנו לרחף?
+\end_layout
+
+\begin_layout Standard
+ההסבר השגוי הוא כדלהלן: 
+\end_layout
+
+\begin_layout Itemize
+בואו נקרב מגנט לעל-מוליך.
+ המגנט יגרום ליצירת זרמים חשמליים שינסו לבלום את השינוי בשתף המגנטי בתוך
+ העל מוליך.
+ 
+\end_layout
+
+\begin_layout Itemize
+אבל הזרמים האלו לא ידעכו - העל-מוליך יוצר בעצמו אלקטרו-מגנט שדוחה את המגנט
+ החדש.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+יותר מזה - העל-מוליך "מתנגד" לכל שינוי בשדה המגנטי.
+ מזיזים את המגנט? תצטרכו "לנצח" את העל-מוליך בשביל זה!
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+ואיך כל זה עוזר לנו לרחף?
+\end_layout
+
+\begin_layout Standard
+מניחים מגנט מעל על מוליך )או על מוליך מעל מגנט( 
+\end_layout
+
+\begin_layout Standard
+)סרט -
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Quantum levitation
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+( 
+\end_layout
+
+\begin_layout Subsubsection
+טמפרטורות נמוכות וגבוהות
+\end_layout
+
+\begin_layout Standard
+הכספית של של קמלינג-אונס היא על מוליכה בטמפרטורות נמוכות מ-
+\begin_inset Formula $4.2K$
+\end_inset
+
+ )לתרגם לצלסיוס(.
+ בדיל עושה את העבודה מתחת ל-
+\begin_inset Formula $3.7K$
+\end_inset
+
+ ואלומיניום ב-
+\begin_inset Formula $1.2K$
+\end_inset
+
+.
+ זה לא כל כך קל להגיע לטמפרטורות האלו.
+ אומנם קמלינג-אונס עשה את זה כבר לפני יותר ממאה שנה, אבל עדיין, זה די כאב-ראש.
+ 
+\end_layout
+
+\begin_layout Paragraph
+על מוליכים בטמפרטורות נמוכות
+\end_layout
+
+\begin_layout Itemize
+אלומיניום - 
+\begin_inset Formula $1.2K$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+כספית: 
+\begin_inset Formula $4.15K$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+עופרת: 
+\begin_inset Formula $7.19K$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+אבץ: 
+\begin_inset Formula $0.88K$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+בשנות השמונים התחילו לגלות חומרים על-מוליכים נוספים, "על מוליכים בטמפרטורות
+ גבוהות".
+ חומרים אלו הם חומרים קרמיים, מורכבים )למשל...( והטמפרטורות הקריטיות שלהן יכולות
+ להיות גבוהות למדי, עד
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $133K$
+\end_inset
+
+!
+\end_layout
+
+\begin_layout Standard
+חומרים: 
+\end_layout
+
+\begin_layout Itemize
+איבקו - איטריום בריום קופר ואקסייד.
+ 
+\begin_inset Formula $90K$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ביסקו - ביסמוט, סטרונציום, קופר אוקסייד, 
+\begin_inset Formula $20K$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+לסקו - לטינום סטרונציום קופר אוקסיד.
+\end_layout
+
+\begin_layout Itemize
+קלבלקו - 
+\begin_inset Formula $\sim55K$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Ha-BaCa-Cu-O$
+\end_inset
+
+ - 
+\begin_inset Formula $133K$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Paragraph
+היסטוריה
+\end_layout
+
+\begin_layout Itemize
+פריץ והיינץ לונדון
+\end_layout
+
+\begin_layout Itemize
+לב לנדאו, ויטלי גינזבורג.
+ 
+\end_layout
+
+\begin_layout Itemize
+ג'ון ברדין, לאון קופר, ג'ון שריפר.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\numeric on
+1986
+\numeric off
+, איי בי אם )קיבלו פרס נובל שנה אחר כך(.
+ גרג בגנרוז, שלק מולר.
+ 
+\end_layout
+
+\begin_layout Standard
+הטמפרטורות האלו הן לא בדיוק טמפרטורות יומיומיות, אבל הן טמפרטורות הרבה יותר
+ פשוטות להשגה מאשר מעלות-קלווין ספורות.
+ חלק מהחומרים האלו הם על מוליכים בטמפרטורה של חנקן-נוזלי, שהוא לא כל כך
+ יקר לייצור.
+ חומרים אלו הם פשוטים בהרבה לשימוש - הן בשימושים "תעשייתיים" והן לצורכי
+ מחקר.
+ אבל על-מוליכים בטמפרטורות גבוהות אינם משוללי בעיות:
+\end_layout
+
+\begin_layout Itemize
+אף אחד לא מבין איך הם עובדים.
+ התורה של
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+BCS
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לא ממש מתאימה להם.
+ 
+\end_layout
+
+\begin_layout Itemize
+אף אחד לא יודע איך לייצר חדשים כאלו.
+ איזה מרככת תהיה על-מוליכה.
+ יש כל מני כללי אצבע שלפעמים עובדים אבל בגדול - צריך לערבב ולבדוק.
+ 
+\end_layout
+
+\begin_layout Itemize
+הם לא עובדים בטמפרטורות גבוהות מספיק.
+ לא לשימוש יומיומי.
+ 
+\end_layout
+
+\begin_layout Section
+שימושים
+\end_layout
+
+\begin_layout Standard
+אבל מה בכל זאת אפשר לעשות עם על מוליכים.
+\end_layout
+
+\begin_layout Subsection
+בימנו
+\end_layout
+
+\begin_layout Itemize
+מאיצי חלקיקים,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+MRI
+\end_layout
+
+\begin_layout Itemize
+מג-לב.
+ הוברבורד! 
+\end_layout
+
+\begin_layout Subsection
+במדע בדיוני
+\end_layout
+
+\begin_layout Standard
+ב"עולם טבעת" של ניבן, ישנה מערכת הגנה מפני מטאורים המורכבת מרשת של כבלים
+ על-מוליכים.
+ כבלים אלו יוצרים שדות מגנטיים חזקים )מצויין!( המשפיעים על השמש וגורמים
+ לה להתפרצויות, ומכוונים אותם כדי להסיט מתאורים )בכל זאת, "בדיוני"( 
+\end_layout
+
+\end_body
+\end_document
